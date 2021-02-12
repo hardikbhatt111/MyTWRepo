@@ -1,0 +1,198 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "verify the IntelliReflex login functionality with valid user",
+        "description": "",
+        "id": "intellireflex-login;verify-the-intellireflex-login-functionality-with-valid-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16290254700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on Login Page",
+            "match": {
+              "location": "AllStepDefs.user_is_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 43696900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "email and password text box are visible",
+            "match": {
+              "location": "AllStepDefs.email_and_password_text_box_are_visible()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11204673100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters username and passowrd",
+            "match": {
+              "location": "AllStepDefs.user_enters_username_and_passowrd()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user verifies the username displayed on home page",
+            "match": {
+              "location": "AllStepDefs.user_verifies_the_username_displayed_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12078074900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user logs out",
+            "match": {
+              "location": "AllStepDefs.user_logs_out()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "IntelliReflex Login",
+    "description": "",
+    "id": "intellireflex-login",
+    "keyword": "Feature",
+    "uri": "LoginPage.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Login"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "verify the user profile details",
+        "description": "",
+        "id": "intellireflex-login-user-profile;verify-the-user-profile-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16438665900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on Login Page",
+            "match": {
+              "location": "AllStepDefs.user_is_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1264200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "email and password text box are visible",
+            "match": {
+              "location": "AllStepDefs.email_and_password_text_box_are_visible()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11460515900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters username and passowrd",
+            "match": {
+              "location": "AllStepDefs.user_enters_username_and_passowrd()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user verifies the username displayed on home page",
+            "match": {
+              "location": "AllStepDefs.user_verifies_the_username_displayed_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9349801200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on profile button",
+            "match": {
+              "location": "AllStepDefs.user_clicks_on_profile_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5199145000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is navigated to profile page",
+            "match": {
+              "location": "AllStepDefs.user_is_navigated_to_profile_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 144800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user verifies the profile details.",
+            "match": {
+              "location": "AllStepDefs.user_verifies_the_profile_details()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "IntelliReflex Login User Profile",
+    "description": "",
+    "id": "intellireflex-login-user-profile",
+    "keyword": "Feature",
+    "uri": "ProfilePage.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@ViewProfile"
+      }
+    ]
+  }
+]
