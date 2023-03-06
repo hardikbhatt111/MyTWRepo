@@ -12,7 +12,7 @@ import cucumber.api.testng.TestNGCucumberRunner;
 @CucumberOptions(
         features = "src/test/resources/com/features/",
         glue = {"com/stepDefs"}, // step def files path
-        tags = { "@ViewProfile, @Login"},	
+        tags = { "@trustwallet01WelcomePage,@trustwalletLegalPage,@trustwalletSetPassPage,@trustwalletConfirmSetPassPage,@trustwalletConsentPage,@trustwalletRecoveryPhrasePage,@trustwalletConfirmRecoveryPhrasePage"},	
         format = {"pretty",
                 "html:src/main/java/com/reports/cucumber-reports/cucumber-pretty",
                 "json:target/cucumber-reports/CucumberTestReport.json",
@@ -31,7 +31,7 @@ public class TestRunner {
         testNGCucumberRunner = new TestNGCucumberRunner(this.getClass());
     }
  
-    @Test(groups = "IntelliReflex Mobile Application Test Report", description = "Runs Cucumber Feature", dataProvider = "features")
+    @Test(groups = "TrustWallet Mobile Application Test Report", description = "Runs Cucumber Feature", dataProvider = "features")
     public void feature(CucumberFeatureWrapper cucumberFeature) {
         testNGCucumberRunner.runCucumber(cucumberFeature.getCucumberFeature());
     }
