@@ -39,7 +39,7 @@ public static AndroidDriver<AndroidElement> driver;
 	public static ArrayList<String> importNames = new ArrayList<String>();
 	public static String copyFileLocation = null;
 	String str1,str2,str3,str4,str5,str6,str7,str8,str9,str10,str11,str12 = "";
-	
+	 
 	public MobileBaseClass()
 	{
 		

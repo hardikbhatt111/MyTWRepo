@@ -1,12 +1,8 @@
 package com.stepDefs;
 
 import com.baseClass.MobileBaseClass;
-import com.pages.LoginPage;
-import com.pages.ProfilePage;
-
 import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
+
 
 public class AllStepDefs extends MobileBaseClass {
 	

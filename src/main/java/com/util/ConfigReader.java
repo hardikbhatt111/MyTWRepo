@@ -13,10 +13,6 @@ private Properties prop;
 	public String configFileLoc;
 	public static Properties propconfig;
 
-	/**
-	 * This method is used to load the properties from config.properties file
-	 * @return it returns Properties prop object
-	 */
 	public Properties init_prop() {
 
 		prop = new Properties();

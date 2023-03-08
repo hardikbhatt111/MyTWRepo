@@ -11,17 +11,6 @@ import org.openqa.selenium.support.events.WebDriverEventListener;
 
 import com.baseClass.MobileBaseClass;
 
-
-
-
-
-/*
-Developed by Ajit Bhosale 
-Date : 17/03/2020
-
-*/
-
-
 public class DriverEventListener extends MobileBaseClass implements WebDriverEventListener {
 
 	public void beforeNavigateTo(String url, WebDriver driver) {
